@@ -1,0 +1,44 @@
+.TH USER_MANAGER 1 April 2024 User Manager Manual
+.SH NAME
+user_manager \- manage users and groups
+
+.SH SYNOPSIS
+.B user_manager
+[\fIOPTION\fR]...
+
+.SH DESCRIPTION
+.B user_manager
+is a program for managing users and groups on the system. It allows users to add/delete users, add/delete groups, change user information, change account information, and assign specific users to specific groups.
+
+.SH OPTIONS
+.TP
+\fB\-a\fR, \fB\-\-add\-user\fR \fIUSERNAME\fR \fIPASSWORD\fR
+Add a new user with the specified username and password.
+
+.TP
+\fB\-d\fR, \fB\-\-delete\-user\fR \fIUSERNAME\fR
+Delete the user with the specified username.
+
+.TP
+\fB\-g\fR, \fB\-\-add\-group\fR \fIGROUPNAME\fR
+Add a new group with the specified name.
+
+.TP
+\fB\-r\fR, \fB\-\-delete\-group\fR \fIGROUPNAME\fR
+Delete the group with the specified name.
+
+.SH EXAMPLES
+To add a new user:
+.BR user_manager --add-user john mypassword
+
+To delete a user:
+.BR user_manager --delete-user john
+
+.SH AUTHOR
+Written by [Ahmed].
+
+.SH REPORTING BUGS
+Report bugs to [amohammedmorsy@gmail.com].
+
+.SH COPYRIGHT
+Copyright \(co [2024] [Ahmed].

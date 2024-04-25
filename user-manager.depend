@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1713994199 source:/home/ahmed/Documents/Task/user-manager/main.c
+1714056007 source:/home/ahmed/Documents/Task/user-manager/main.c
 	<stdio.h>
 	<string.h>
 	"menu.h"

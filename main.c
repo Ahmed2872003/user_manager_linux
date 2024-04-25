@@ -25,7 +25,7 @@ int main(){
 
         show_menu();
 
-        printf("Enter an option: ");
+        printf("Choose an option: ");
 
         scanf("%c", &choice);
 

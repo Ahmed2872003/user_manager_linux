@@ -35,8 +35,25 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Bool.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="manage_groups.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="manage_groups.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="manage_users.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="manage_users.h">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="menu.c">
 			<Option compilerVar="CC" />

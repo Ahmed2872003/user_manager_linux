@@ -28,3 +28,32 @@
 
 1713991643 /home/ahmed/Documents/Task/user-manager/Bool.h
 
+1714058555 source:c:\users\ahmed\desktop\user_manager_linux\main.c
+	<stdio.h>
+	<string.h>
+	"menu.h"
+	"manage_users.h"
+	"manage_groups.h"
+
+1714058555 c:\users\ahmed\desktop\user_manager_linux\menu.h
+
+1714058555 c:\users\ahmed\desktop\user_manager_linux\manage_users.h
+	"Bool.h"
+	"manage_groups.h"
+
+1714058555 c:\users\ahmed\desktop\user_manager_linux\bool.h
+
+1714058555 c:\users\ahmed\desktop\user_manager_linux\manage_groups.h
+	"Bool.h"
+
+1714058555 source:c:\users\ahmed\desktop\user_manager_linux\manage_groups.c
+	"manage_groups.h"
+
+1714058555 source:c:\users\ahmed\desktop\user_manager_linux\manage_users.c
+	"manage_users.h"
+	"string.h"
+
+1714058555 source:c:\users\ahmed\desktop\user_manager_linux\menu.c
+	<stdio.h>
+	"menu.h"
+
